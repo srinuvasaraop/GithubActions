@@ -1,0 +1,42 @@
+✅ Static Keyword – Practice Questions (C#)
+
+🔹 1. static class
+Q1:
+Create a static class called MathHelper that contains a static method to calculate the cube of a number. Try calling this method from Main() without creating an instance.
+
+🔹 2. static method
+Q2:
+In a class named TemperatureConverter, define a static method CelsiusToFahrenheit(double celsius) that returns the Fahrenheit equivalent. Call it from Main().
+
+🔹 3. static field / variable
+Q3:
+Create a class Employee with a static field TotalEmployees. Each time you create a new Employee, increase the counter. Show total employees created at the end.
+
+🔹 4. static property
+Q4:
+Design a class AppConfig with a static property ApplicationName (string). Set it in Main() and print its value without creating an instance of the class.
+
+🔹 5. static constructor
+Q5:
+Create a class Logger with a static constructor that initializes a static field LogFilePath. Ensure that this constructor only runs once when accessing the static field.
+
+🔹 6. using static (C# 6.0)
+Q6:
+Use using static to import members from the System.Math class. Then, use methods like Pow() and Sqrt() without prefixing them with Math.
+
+🔹 7. static local function (C# 8.0)
+Q7:
+Inside a method IsValidName(string name) in a class Validator, declare a static local function IsAlphaOnly(string) to check if the name contains only alphabets. Return true only if the name passes the local function check.
+
+🔹 8. static Main() method
+Q8:
+Write a minimal console application with a static void Main() method as the entry point, which prints a welcome message.
+
+🔹 9. static delegate (advanced usage)
+Q9:
+Define a static class Notifier with a static delegate OnNotify. Assign a method to the delegate and invoke it from Main() to simulate a notification message.
+
+🔹 10. static readonly field
+Q10:
+Create a class AppSettings with a static readonly field Version that is initialized with the current date. Print this value in Main().
+

@@ -1,0 +1,14 @@
+/Users/spandi/Basics/MultiThreading/bin/Debug/net8.0/MultiThreading
+/Users/spandi/Basics/MultiThreading/bin/Debug/net8.0/MultiThreading.deps.json
+/Users/spandi/Basics/MultiThreading/bin/Debug/net8.0/MultiThreading.runtimeconfig.json
+/Users/spandi/Basics/MultiThreading/bin/Debug/net8.0/MultiThreading.dll
+/Users/spandi/Basics/MultiThreading/bin/Debug/net8.0/MultiThreading.pdb
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.GeneratedMSBuildEditorConfig.editorconfig
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.AssemblyInfoInputs.cache
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.AssemblyInfo.cs
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.csproj.CoreCompileInputs.cache
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.dll
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/refint/MultiThreading.dll
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.pdb
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/MultiThreading.genruntimeconfig.cache
+/Users/spandi/Basics/MultiThreading/obj/Debug/net8.0/ref/MultiThreading.dll
