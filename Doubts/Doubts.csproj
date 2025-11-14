@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <StartupObject>Doubts.Lamda1</StartupObject>
+        <StartupObject>Doubts.Lamda3</StartupObject>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>

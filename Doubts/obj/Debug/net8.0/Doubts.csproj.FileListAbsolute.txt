@@ -7,6 +7,7 @@
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.AssemblyInfoInputs.cache
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.AssemblyInfo.cs
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.csproj.CoreCompileInputs.cache
+/Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.sourcelink.json
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.dll
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/refint/Doubts.dll
 /Users/spandi/Basics/Doubts/obj/Debug/net8.0/Doubts.pdb

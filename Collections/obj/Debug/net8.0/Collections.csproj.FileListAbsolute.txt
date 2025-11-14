@@ -7,6 +7,7 @@
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.AssemblyInfoInputs.cache
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.AssemblyInfo.cs
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.csproj.CoreCompileInputs.cache
+/Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.sourcelink.json
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.dll
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/refint/Collections.dll
 /Users/spandi/Basics/Collections/obj/Debug/net8.0/Collections.pdb
