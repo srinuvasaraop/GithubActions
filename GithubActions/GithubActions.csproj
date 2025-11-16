@@ -2,9 +2,14 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
+        <StartupObject>GithubActions.Testing</StartupObject>
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".github\workflows\ga2-build-test.yml" />
+    </ItemGroup>
 
 </Project>
