@@ -1,45 +1,33 @@
-name: .NET CI                         # Name of your workflow (visible in GitHub Actions UI)
+name: Developmemnt builds
 
-# ---------------------------------------------------------
-# WHEN SHOULD THIS WORKFLOW RUN?
-# ---------------------------------------------------------
 on:
-  push:                              # Trigger the workflow on every push
-    branches: [ "main" ]             # Only when the push happens to the 'main' branch
+  push:
+    branches: [ "main" ]
 
-# ---------------------------------------------------------
-# JOBS SECTION — A workflow can have multiple jobs
-# Here we have only one job named 'build'
-# ---------------------------------------------------------
 jobs:
-  build:                             # Job name (can be anything)
-    runs-on: ubuntu-latest           # GitHub creates a fresh Ubuntu VM for this job
+  build:
+    runs-on: ubuntu-latest
 
-    # -----------------------------------------------------
-    # STEPS INSIDE THE JOB — executed in sequence
-    # -----------------------------------------------------
     steps:
-
+    
       - name: Checkout code
-        uses: actions/checkout@v4      # Pulls your repository code into the runner
-        # Without this step, the VM has NO code to build
+        uses: actions/checkout@v4
 
       - name: Setup .NET SDK
-        uses: actions/setup-dotnet@v3  # Installs the .NET SDK on the runner
+        uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: '8.0.x'      # Specifies .NET version to install (8.x in this case)
+          dotnet-version: '8.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore            # Downloads NuGet packages needed for your project
+        run: dotnet restore
 
       - name: Build project
         run: dotnet build --configuration Release --no-restore
-        # Builds your project in Release mode
-        # --no-restore because restore was already done
 
       - name: Run tests (Only GithubActions project)
         run: dotnet test GithubActions/GithubActions.csproj --no-build --verbosity normal
-          
-          # Executes all test projects in the solution
-        # --no-build = saves time (already built)
-        # verbosity normal shows readable console output
+        # Executes tests only for the GithubActions project
+
+      - name: Run app
+        run: dotnet run --project GithubActions/GithubActions.csproj
+        # This will show your Console.WriteLine() output in the Actions logs
