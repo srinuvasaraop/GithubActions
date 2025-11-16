@@ -5,7 +5,7 @@ name: .NET CI                         # Name of your workflow (visible in GitHub
 # ---------------------------------------------------------
 on:
   push:                              # Trigger the workflow on every push
-    branches: [ "GA2" ]             # Only when the push happens to the 'main' branch
+    branches: [ "main" ]             # Only when the push happens to the 'main' branch
 
 # ---------------------------------------------------------
 # JOBS SECTION — A workflow can have multiple jobs
@@ -34,12 +34,12 @@ jobs:
 
       - name: Build project
         run: dotnet build --configuration Release --no-restore
-          # Builds your project in Release mode
+        # Builds your project in Release mode
         # --no-restore because restore was already done
 
       - name: Run tests (Only GithubActions project)
-        run: dotnet test GithubActions/GithubActions.csproj --no-build --verbosity normal    
+        run: dotnet test GithubActions/GithubActions.csproj --no-build --verbosity normal
           
           # Executes all test projects in the solution
-          # --no-build = saves time (already built)
+        # --no-build = saves time (already built)
         # verbosity normal shows readable console output

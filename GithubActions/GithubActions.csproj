@@ -8,8 +8,4 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Content Include=".github\workflows\ga2-build-test.yml" />
-    </ItemGroup>
-
 </Project>
