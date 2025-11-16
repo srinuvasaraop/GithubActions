@@ -5,7 +5,7 @@ name: .NET CI                         # Name of your workflow (visible in GitHub
 # ---------------------------------------------------------
 on:
   push:                              # Trigger the workflow on every push
-    branches: [ "main" ]             # Only when the push happens to the 'main' branch
+    branches: [ "GA2" ]             # Only when the push happens to the 'main' branch
 
 # ---------------------------------------------------------
 # JOBS SECTION — A workflow can have multiple jobs
