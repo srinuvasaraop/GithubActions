@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/spandi/Basics/MultiThreading/MultiThreading.csproj": {}
+    "/Users/rvemanamanda/GA/GithubActions/MultiThreading/MultiThreading.csproj": {}
   },
   "projects": {
-    "/Users/spandi/Basics/MultiThreading/MultiThreading.csproj": {
+    "/Users/rvemanamanda/GA/GithubActions/MultiThreading/MultiThreading.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/spandi/Basics/MultiThreading/MultiThreading.csproj",
+        "projectUniqueName": "/Users/rvemanamanda/GA/GithubActions/MultiThreading/MultiThreading.csproj",
         "projectName": "MultiThreading",
-        "projectPath": "/Users/spandi/Basics/MultiThreading/MultiThreading.csproj",
-        "packagesPath": "/Users/spandi/.nuget/packages/",
-        "outputPath": "/Users/spandi/Basics/MultiThreading/obj/",
+        "projectPath": "/Users/rvemanamanda/GA/GithubActions/MultiThreading/MultiThreading.csproj",
+        "packagesPath": "/Users/rvemanamanda/.nuget/packages/",
+        "outputPath": "/Users/rvemanamanda/GA/GithubActions/MultiThreading/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/spandi/.nuget/NuGet/NuGet.Config"
+          "/Users/rvemanamanda/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,8 +37,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -57,15 +56,15 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[8.0.19, 8.0.19]"
+              "version": "[8.0.22, 8.0.22]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.19, 8.0.19]"
+              "version": "[8.0.22, 8.0.22]"
             }
           ],
           "frameworkReferences": {
@@ -73,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/spandi/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/Users/rvemanamanda/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

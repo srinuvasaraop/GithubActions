@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/spandi/.nuget/packages/": {}
+    "/Users/rvemanamanda/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/spandi/Basics/GithubActions/GithubActions.csproj",
+      "projectUniqueName": "/Users/rvemanamanda/GA/GithubActions/GithubActions/GithubActions.csproj",
       "projectName": "GithubActions",
-      "projectPath": "/Users/spandi/Basics/GithubActions/GithubActions.csproj",
-      "packagesPath": "/Users/spandi/.nuget/packages/",
-      "outputPath": "/Users/spandi/Basics/GithubActions/obj/",
+      "projectPath": "/Users/rvemanamanda/GA/GithubActions/GithubActions/GithubActions.csproj",
+      "packagesPath": "/Users/rvemanamanda/.nuget/packages/",
+      "outputPath": "/Users/rvemanamanda/GA/GithubActions/GithubActions/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/spandi/.nuget/NuGet/NuGet.Config"
+        "/Users/rvemanamanda/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -43,8 +43,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -63,15 +62,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.osx-x64",
-            "version": "[8.0.19, 8.0.19]"
+            "version": "[8.0.22, 8.0.22]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.19, 8.0.19]"
+            "version": "[8.0.22, 8.0.22]"
           }
         ],
         "frameworkReferences": {
@@ -79,16 +78,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/spandi/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Users/rvemanamanda/.dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
-    }
-  ]
+  }
 }

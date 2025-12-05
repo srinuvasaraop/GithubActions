@@ -1,22 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iXX/JchRwoM=",
+  "dgSpecHash": "Vxk3Wcznv0M=",
   "success": true,
-  "projectFilePath": "/Users/spandi/Basics/GithubActions/GithubActions.csproj",
+  "projectFilePath": "/Users/rvemanamanda/GA/GithubActions/GithubActions/GithubActions.csproj",
   "expectedPackageFiles": [
-    "/Users/spandi/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/spandi/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/spandi/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.19/microsoft.netcore.app.host.osx-x64.8.0.19.nupkg.sha512"
+    "/Users/rvemanamanda/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rvemanamanda/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rvemanamanda/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
-      "projectPath": "/Users/spandi/Basics/GithubActions/GithubActions.csproj",
-      "warningLevel": 1,
-      "filePath": "/Users/spandi/Basics/GithubActions/GithubActions.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

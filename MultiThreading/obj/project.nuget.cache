@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PzX6MkyuUoI=",
+  "dgSpecHash": "+eXyf4esOVY=",
   "success": true,
-  "projectFilePath": "/Users/spandi/Basics/MultiThreading/MultiThreading.csproj",
+  "projectFilePath": "/Users/rvemanamanda/GA/GithubActions/MultiThreading/MultiThreading.csproj",
   "expectedPackageFiles": [
-    "/Users/spandi/.nuget/packages/microsoft.netcore.app.ref/8.0.19/microsoft.netcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/spandi/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.19/microsoft.aspnetcore.app.ref.8.0.19.nupkg.sha512",
-    "/Users/spandi/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.19/microsoft.netcore.app.host.osx-x64.8.0.19.nupkg.sha512"
+    "/Users/rvemanamanda/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rvemanamanda/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/rvemanamanda/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }
